@@ -1,4 +1,0 @@
-CREATE TABLE car_brands (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(100) NOT NULL
-);
