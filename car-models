@@ -1,0 +1,6 @@
+CREATE TABLE car_models (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    carBrandId INT NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    FOREIGN KEY (carBrandId) REFERENCES car_brands(id)
+);
